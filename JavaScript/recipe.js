@@ -1,5 +1,5 @@
-const API_KEY = "AIzaSyDDXsd4LTHzEPPTz0cEnEcJfbg4_fLRnMg"; // Replace with your actual API key
-const MODEL_NAME = "gemini-1.5-flash";
+const API_KEY = "AIzaSyBZFbIubkyGyIrcSY2Em7jpt1bxvIr3me8"; // Replace with your actual API key
+const MODEL_NAME = "gemini-2.5-flash";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
 
 async function generateRecipe() {
