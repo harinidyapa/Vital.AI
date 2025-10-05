@@ -1,5 +1,5 @@
-const API_KEY = "AIzaSyDDXsd4LTHzEPPTz0cEnEcJfbg4_fLRnMg"; // Replace with your actual API key
-const MODEL_NAME = "gemini-1.5-flash";
+const API_KEY = "AIzaSyDhifcn6kuXDW_oz0VPmrFCcRr4skAoKlQ"; // Replace with your actual API key
+const MODEL_NAME = "gemini-2.5-flash";
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
 
 async function getRemedies() {
